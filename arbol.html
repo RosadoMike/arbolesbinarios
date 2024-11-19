@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recorridos de Árboles</title>
+    <link rel="stylesheet" href="./arbol.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recorridos de Árboles Binarios y N-arios</h1>
+        <div class="controls">
+            <label for="arbolSelect">Selecciona un árbol:</label>
+            <select id="arbolSelect">
+                <option value="1">Árbol 1</option>
+                <option value="2">Árbol 2</option>
+                <option value="3">Árbol 3</option>
+                <option value="4">Árbol 4</option>
+                <option value="5">Árbol 5</option>
+                <!-- Agrega más opciones según los árboles disponibles -->
+            </select>
+            
+            <label for="recorridoSelect">Selecciona un recorrido:</label>
+            <select id="recorridoSelect">
+                <option value="amplitud">Amplitud</option>
+                <option value="preorden">Preorden</option>
+                <option value="inorden">Inorden</option>
+                <option value="postorden">Postorden</option>
+            </select>
+            
+            <button id="recorrerBtn">Realizar Recorrido</button>
+        
+        </div>
+
+        <div class="result">
+            <h2>Resultado del Recorrido</h2>
+            <p id="resultado">Selecciona un árbol y un recorrido para ver el resultado.</p>
+        </div>
+
+        <div id="arbol-container" class="imagen-container">
+            <p>Selecciona un árbol para visualizarlo.</p>
+        </div>
+        
+
+        
+
+
+    </div>
+    
+    <script type="module" src="./js/arboles.js"></script>
+    <script type="module" src="./js/recorrido.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+    
+</body>
+</html>
